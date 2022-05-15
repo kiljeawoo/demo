@@ -1,0 +1,24 @@
+.popup_body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+    border: 2px green solid;
+}
+.popup_message_area{
+    text-align: center;
+}
+.popup_accept_button_area{
+    text-align: center;
+}
+.popup_accept_button_area > button{
+    width: 50%;
+    background-color: skyblue;
+    border-color: deepskyblue;
+}

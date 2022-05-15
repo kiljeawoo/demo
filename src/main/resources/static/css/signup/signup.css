@@ -1,0 +1,49 @@
+.signup_menu_area{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-template-rows: 25% 12.5% 12.5% 12.5% 12.5% 25%;
+
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border: green 1px solid;
+
+}
+.signup_logo_area{
+    background-color: burlywood;
+}
+.signup_id_input_area{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.signup_name_input_area{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.signup_password_input_area{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.signup_password_check_area{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.signup_buttons_area{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.signup_signup_button_tag > button{
+    width: 80%;
+    background-color: skyblue;
+    border-color: deepskyblue;
+}
+.signup_signup_cancel_button_tag > button{
+    width: 80%;
+    background-color: skyblue;
+    border-color: deepskyblue;
+}

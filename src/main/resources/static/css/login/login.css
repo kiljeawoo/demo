@@ -1,0 +1,62 @@
+.login_body_area{
+    z-index: -1;
+}
+.login_menu_area{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 30% 16% 16% 27%;
+    border: 1px green solid;
+    background-color: white;
+}
+.login_logo_area > .login_logo_tag{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: burlywood;
+}
+.login_id_input_area{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.login_id_input_label{
+    text-align: center;
+}
+.login_id_input_tag{
+    text-align: center;
+}
+.login_password_input_area{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.login_password_input_label{
+    text-align: center;
+}
+.login_password_input_tag{
+    text-align: center;
+}
+.login_buttons_area{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.login_button_area{
+    text-align: center;
+}
+.login_button_area > button{
+    background-color: lightskyblue;
+    border-color: deepskyblue;
+}
+.login_signup_button_area{
+    text-align: center;
+}
+.login_signup_button_area > button{
+    background-color: lightskyblue;
+    border-color: deepskyblue;
+}
